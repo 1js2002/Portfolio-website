@@ -1,3 +1,5 @@
+
+import Image from "next/image";
 import Link from "next/link";
 import { FC } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
@@ -5,7 +7,7 @@ import BackgroundCircles from "./BackgroundCircles";
 
 const Hero: FC = () => {
 	const [text, count] = useTypewriter({
-		words: ["Developer", "Designer", "Content-Writer"],
+		words: ["Developer", "Designer", "Creator"],
 		loop: true,
 		delaySpeed: 2000,
 	});
@@ -19,7 +21,7 @@ const Hero: FC = () => {
 			/>
 			<div className="z-20">
 				<h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
-					Geek-Developer
+					Software Engineer
 				</h2>
 				<h1 className="text-5xl lg:text-6xl font-semibold px-10">
 					<span className="mr-3">{text}</span>
