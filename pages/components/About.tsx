@@ -9,7 +9,7 @@ const About: FC = () => {
 			whileInView={{ opacity: 1 }}
 			transition={{ duration: 1.5 }}
 		>
-			<h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+			<h3 className=" md: hidden absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
 				About
 			</h3>
 			<motion.img
