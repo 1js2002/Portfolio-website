@@ -4,6 +4,7 @@ import Hero from "./components/Hero";
 import About from "./components/About";
 import Skills from "./components/Skills";
 import Projects from "./components/Projects";
+import ContactMe from "./components/ContactMe";
 //import WorkExperience from './components/WorkExperience'
 export default function Home() {
 	return (
@@ -12,7 +13,6 @@ export default function Home() {
 				<title>Shiraan || Portfolio</title>
 			</Head>
 			<Header />
-
 			<section className="snap-start" id="hero">
 				<Hero />
 			</section>
@@ -22,17 +22,15 @@ export default function Home() {
 			{/* <section className="snap-center" id="experience">
 				<WorkExperience />
 			</section> */}
-			
 			<section className="snap-start" id="skills">
-				<Skills/>
+				<Skills />
 			</section>
-			
-
-			<section id="projects" className="snap-start">
+			<section className="snap-start" id="projects">
 				<Projects />
 			</section>
-
-			{/* Contact Me */}
+			<section className="snap-start" id="contact">
+				<ContactMe />
+			</section>
 		</div>
 	);
 }
