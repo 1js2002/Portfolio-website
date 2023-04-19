@@ -51,7 +51,7 @@ export default function Home() {
             <img
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
             cursor-pointer '
-            src="https://st4.depositphotos.com/21230196/23977/v/450/depositphotos_239776244-stock-illustration-specialist-icon-vector-white-background.jpg" alt="" />
+            src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/aa34f425448486.5604c3fe8a13a.jpg" alt="" />
           </div>
         </footer>
       </Link>
