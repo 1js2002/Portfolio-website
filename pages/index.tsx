@@ -57,7 +57,7 @@ export default function Home() {
             <Image
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
             cursor-pointer '
-            src="https://github.com/1js2002/Keeper-Project/blob/main/public/home.jpg?raw=true" alt="" />
+            src="https://github.com/1js2002/Keeper-Project/blob/main/public/home.jpg" alt="" />
           </div>
         </footer>
       </Link>
