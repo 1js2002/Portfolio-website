@@ -8,6 +8,7 @@ import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 import Blogs from '@/components/Blogs'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -15,7 +16,7 @@ export default function Home() {
     overflow-y-scroll overflow-x-hidden z-0 scrollbar scrollbar-track-gray-400/20
      scrollbar-thumb-[#F7AB0A]/80'>
       <Head>
-        <title>Shiraan's || Portfolio</title>
+        <title>Shiraan || Portfolio</title>
       </Head>
 
       <Header/>
@@ -53,7 +54,7 @@ export default function Home() {
       href='#hero'>
         <footer className='sticky bottom-20 md:bottom-8 justify-end flex w-full cursor-pointer pr-10' >
           <div className='flex items-center justify-center'>
-            <img
+            <Image
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
             cursor-pointer '
             src="https://mir-s3-cdn-cf.behance.net/project_modules/1400/aa34f425448486.5604c3fe8a13a.jpg" alt="" />

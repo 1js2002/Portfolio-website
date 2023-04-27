@@ -43,7 +43,7 @@ function About({}: Props) {
                 - 🌍 I love exploring the latest advancements in the tech world.<br></br>
                 - 💻 In my free time, I like to work on personal coding projects and contribute to open-source projects.<br></br>
                 - 🌷 I also find meditation to be a great way to clear my mind and focus on my goals.<br></br>
-                - ✌️ I'm open to opportunities.
+                - ✌️ Im open to opportunities.
 
             </p>
         </div>
