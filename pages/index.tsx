@@ -9,6 +9,7 @@ import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
 import Blogs from '@/components/Blogs'
 import Image from 'next/image'
+import home from '../public/home.jpeg'
 
 export default function Home() {
   return (
@@ -57,7 +58,7 @@ export default function Home() {
             <Image
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
             cursor-pointer '
-            src="https://media.sketchfab.com/models/94a46ec86e0944dea6efa794bd0c2723/thumbnails/d117c2eac8384c98a389cbb2010517cd/6df2eec8bb6a4168bc3e19f54eb0a450.jpeg" alt="" />
+            src={home} alt="home" />
           </div>
         </footer>
       </Link>
