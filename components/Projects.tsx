@@ -33,14 +33,10 @@ function Projects({}: Props) {
           <p>This project is a Google Keep clone built using React Redux. It allows users to create and organize notes, set reminders, and collaborate with others.</p>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div className="card-link-wrapper">
-          <a href="https://github.com/1js2002/Keeper-Project" className="card-link">Read More</a>
-        </div>
+      
         <div className="card-link-wrapper">
           <a href="https://keeper-project-flax.vercel.app/" className="card-link">View demo</a>
         </div>
-      </div>
     </li>
     <li className="card">
       <div>
@@ -62,31 +58,41 @@ function Projects({}: Props) {
           <p>This quiz app built with React Redux and Trivia API lets users test their knowledge with various categories and difficulty levels while managing the application state.</p>
         </div>
       </div>
-      <div className="flex justify-between">
-        <div className="card-link-wrapper">
-          <a href="https://github.com/1js2002/QUIZEO" className="card-link">Read More</a>
-        </div>
+      
+        
         <div className="card-link-wrapper">
           <a href="https://quizeo-brown.vercel.app/" className="card-link">View demo</a>
         </div>
-      </div>
+      
     </li>
     <li className="card">
-      <div>
+      <motion.div
+        initial={{
+          x: -500,
+          opacity: 0,
+          scale: 0.5
+      }}
+      animate={{
+          x: 0,
+          opacity: 1,
+          scale: 1
+      }}
+      transition={{
+          duration: 1.5
+      }}
+      >
         <h3 className="card-title">Chatcord </h3>
         <Image src={chatcord} alt="quiz-app" width={300} height={200} />
         <div className="card-content">
           <p>The chat app is a web application built using React and Socket.io. It allows users to communicate with each other in real-time via a chat interface. </p>
         </div>
-      </div>
-      <div className="flex  flex-wrap justify-between">
-        <div className="card-link-wrapper">
-          <a href="https://github.com/1js2002/chatcord_" className="card-link ">Read More</a>
-        </div>
+      </motion.div>
+      
         <div className="card-link-wrapper">
           <a href="https://chatcord-flax.vercel.app/" className="card-link ">View demo</a>
         </div>
-      </div>
+      
+      
     </li>
     
   </ul>

@@ -13,7 +13,8 @@ export default function Hero({}: Props) {
     words: [
       'Hi, The Name is Dinesh',
       'Guy-who-loves-Reading.tsx',
-      '<ButLovesToCodeMore/>'
+      '<ButLovesToCodeMore/>',
+      '<HIM/>'
     ],
     loop: true,
     delaySpeed: 2000,
@@ -50,6 +51,9 @@ export default function Hero({}: Props) {
           </Link>
           <Link href='#projects'>
             <button className='heroButton'>Projects</button>
+          </Link>
+          <Link href='#blogs'>
+            <button className='heroButton'>Blog Posts</button>
           </Link>
           <Link href='#contact'>
             <button className='heroButton'>Contact</button>

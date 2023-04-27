@@ -7,6 +7,7 @@ import Hero from '../components/Hero'
 import Projects from '../components/Projects'
 import Skills from '../components/Skills'
 import WorkExperience from '../components/WorkExperience'
+import Blogs from '@/components/Blogs'
 
 export default function Home() {
   return (
@@ -37,6 +38,10 @@ export default function Home() {
 
       <section id="projects" className='snap-start'>
         <Projects/>
+      </section>
+      
+      <section id="blogs" className='snap-start'>
+        <Blogs/>
       </section>
 
       <section id="contact" className='snap-start'>

@@ -107,9 +107,10 @@
     text-decoration: none;
     color: white;
     background: var(--yellow);
-    padding: 6px 12px;
+    padding: 6px 12px ;
     border-radius: 8px;
     transition: background 0.2s;
+  
   }
 
   .card:hover .card-link {

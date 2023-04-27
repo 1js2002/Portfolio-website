@@ -26,7 +26,7 @@ function About({}: Props) {
         }}
         whileInView={{opacity: 1, x: 0}}
         viewport={{once: true}}
-        src="https://img.freepik.com/free-vector/hacker-operating-laptop-cartoon-icon-illustration-technology-icon-concept-isolated-flat-cartoon-style_138676-2387.jpg"
+        src="https://media0.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif?cid=ecf05e477ztfmr2w72zjhwpk0avlzb5dm8eicdpkzly7g5cs&ep=v1_gifs_related&rid=giphy.gif&ct=g"
         alt='user picture'
         className='mt-24 md:mb-0 flex-shrink-0 w-52 h-52 md:w-[300px] md:h-[300px]
         rounded-full object-cover md:rounded-lg 
@@ -38,14 +38,13 @@ function About({}: Props) {
                 little</span>{" "}background
             </h4>
             <p className='text-base'>
-                Hi there! My name is Dinesh and I am a 4th-year student pursuing a Bachelor's degree in Information Technology Engineering. 
-                I am a passionate geek developer and an open-source enthusiast with a strong interest in learning new technologies.
-                I love exploring the latest advancements in the tech world.
-                Apart from my academic pursuits, I am an avid listener of audiobooks and believe that reading can be a
-                great way to expand our minds and broaden our perspectives. I also find meditation to be a great way to clear my mind and focus on my goals.
-                In my free time, I like to work on personal coding projects and contribute to open-source projects as well. 
-                I am someone who loves technology and is always looking for new challenges to grow. I have creative and critical
-                thinking skills that make me an ideal candidate for jobs that require these qualities.
+                - 👋 Hi there! My name is Dinesh.  <br></br>
+                - 🎓 I have a Bachelor Degree in Information Technology. <br></br>
+                - 🌍 I love exploring the latest advancements in the tech world.<br></br>
+                - 💻 In my free time, I like to work on personal coding projects and contribute to open-source projects.<br></br>
+                - 🌷 I also find meditation to be a great way to clear my mind and focus on my goals.<br></br>
+                - ✌️ I'm open to opportunities.
+
             </p>
         </div>
         
