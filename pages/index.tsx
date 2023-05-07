@@ -57,7 +57,7 @@ export default function Home() {
           <div className='flex items-center justify-center'>
             <Image
             className='h-10 w-10 rounded-full filter grayscale hover:grayscale-0
-            cursor-pointer '
+            cursor-pointer'
             src={home} alt="home" />
           </div>
         </footer>
