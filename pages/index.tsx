@@ -19,17 +19,13 @@ export default function Home() {
       <Head>
         <title>Dinesh || Portfolio</title>
       </Head>
-
       <Header/>
-
       <section id="hero" className='snap-start'>
         <Hero/>
       </section>
-
       <section id="about" className='snap-center'>
         <About/>
       </section>
-
       {/* <section id="experience" className='snap-center'>
         <WorkExperience/>
       </section> */}
