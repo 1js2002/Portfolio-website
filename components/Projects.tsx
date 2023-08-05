@@ -6,7 +6,7 @@ import quizeo from "../public/quizeo.png";
 import chatcord from "../public/chatcord.png";
 import port from "../public/port.png";
 import keep from "../public/keep.png";
-import home from "../public/home.png"
+import home from "../public/home.png";
 type Props = {};
 
 function Projects({}: Props) {
@@ -25,7 +25,7 @@ function Projects({}: Props) {
       </h3>
       <div className="container">
         <ul className="cards">
-        <li className="card">
+          <li className="card">
             <div>
               <h3 className="card-title">Portfolio Website</h3>
               <img src="port.png" alt="pot" />
@@ -60,6 +60,25 @@ function Projects({}: Props) {
         </div>
     </li> */}
           <li className="card">
+            <h3 className="card-title">Chatcord </h3>
+            <img src="chatcord.png" alt="cht" />
+            <div className="card-content">
+              <p>
+                The chat app is a web application built using React and
+                Socket.io. It allows users to communicate with each other in
+                real-time via a chat interface.{" "}
+              </p>
+            </div>
+            <div className="card-link-wrapper">
+              <a
+                href="https://github.com/1js2002/chatcord_"
+                className="card-link "
+              >
+                View Code
+              </a>
+            </div>
+          </li>
+          <li className="card">
             <div>
               <h3 className="card-title">Google Keep Clone</h3>
               <img src="keep.png" alt="ke" />
@@ -81,7 +100,7 @@ function Projects({}: Props) {
               </a>
             </div>
           </li>
-         
+
           <li className="card">
             <div>
               <h3 className="card-title">A+ studio </h3>
@@ -89,7 +108,8 @@ function Projects({}: Props) {
 
               <div className="card-content">
                 <p>
-                This project is a front-end website built using Tailwind CSS and Next.js, providing a modern and responsive user interface.
+                  This project is a front-end website built using Tailwind CSS
+                  and Next.js, providing a modern and responsive user interface.
                 </p>
               </div>
             </div>
@@ -118,42 +138,6 @@ function Projects({}: Props) {
 
             <div className="card-link-wrapper">
               <a href="https://quizeo-brown.vercel.app/" className="card-link">
-                View demo
-              </a>
-            </div>
-          </li>
-          <li className="card">
-            <motion.div
-              initial={{
-                x: -500,
-                opacity: 0,
-                scale: 0.5,
-              }}
-              animate={{
-                x: 0,
-                opacity: 1,
-                scale: 1,
-              }}
-              transition={{
-                duration: 1.5,
-              }}
-            >
-              <h3 className="card-title">Chatcord </h3>
-              <img src="chatcord.png" alt="cht" />
-              <div className="card-content">
-                <p>
-                  The chat app is a web application built using React and
-                  Socket.io. It allows users to communicate with each other in
-                  real-time via a chat interface.{" "}
-                </p>
-              </div>
-            </motion.div>
-
-            <div className="card-link-wrapper">
-              <a
-                href="https://chatcord-flax.vercel.app/"
-                className="card-link "
-              >
                 View demo
               </a>
             </div>
