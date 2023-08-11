@@ -7,6 +7,7 @@ import chatcord from "../public/chatcord.png";
 import port from "../public/port.png";
 import keep from "../public/keep.png";
 import home from "../public/home.png";
+import tesla from "../public/tesla.png";
 type Props = {};
 
 function Projects({}: Props) {
@@ -60,11 +61,28 @@ function Projects({}: Props) {
         </div>
     </li> */}
           <li className="card">
+            <h3 className="card-title">Tesla-clone </h3>
+            <img src="tesla.png" alt="tesla" />
+            <div className="card-content">
+              <p>
+              A cool website made with React.js that looks and feels like using a Tesla car.{" "}
+              </p>
+            </div>
+            <div className="card-link-wrapper">
+              <a
+                href="https://tesla-rosy.vercel.app/"
+                className="card-link "
+              >
+                View demo
+              </a>
+            </div>
+          </li>
+          <li className="card">
             <h3 className="card-title">Chatcord </h3>
             <img src="chatcord.png" alt="cht" />
             <div className="card-content">
               <p>
-                The chat app is a web application built using React and
+                The chat app is a web application built using vanilla JS and
                 Socket.io. It allows users to communicate with each other in
                 real-time via a chat interface.{" "}
               </p>
@@ -75,6 +93,27 @@ function Projects({}: Props) {
                 className="card-link "
               >
                 View Code
+              </a>
+            </div>
+          </li>
+          <li className="card">
+            <div>
+              <h3 className="card-title">A+ studio </h3>
+              <img src="home.png" alt="Aplus" />
+
+              <div className="card-content">
+                <p>
+                  This project is a front-end website built using Tailwind CSS
+                  and Next.js, providing a modern and responsive user interface.
+                </p>
+              </div>
+            </div>
+            <div className="card-link-wrapper">
+              <a
+                href="https://aplustudio-1js2002.vercel.app/"
+                className="card-link"
+              >
+                Read More
               </a>
             </div>
           </li>
@@ -101,27 +140,7 @@ function Projects({}: Props) {
             </div>
           </li>
 
-          <li className="card">
-            <div>
-              <h3 className="card-title">A+ studio </h3>
-              <img src="home.png" alt="Aplus" />
-
-              <div className="card-content">
-                <p>
-                  This project is a front-end website built using Tailwind CSS
-                  and Next.js, providing a modern and responsive user interface.
-                </p>
-              </div>
-            </div>
-            <div className="card-link-wrapper">
-              <a
-                href="https://aplustudio-1js2002.vercel.app/"
-                className="card-link"
-              >
-                Read More
-              </a>
-            </div>
-          </li>
+          
           <li className="card">
             <div>
               <h3 className="card-title">QUIZEO</h3>
