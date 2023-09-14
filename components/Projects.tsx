@@ -8,6 +8,7 @@ import port from "../public/port.png";
 import keep from "../public/keep.png";
 import home from "../public/home.png";
 import tesla from "../public/tesla.png";
+import ecom from "../public/ecom.png";
 type Props = {};
 
 function Projects({}: Props) {
@@ -26,6 +27,29 @@ function Projects({}: Props) {
       </h3>
       <div className="container">
         <ul className="cards">
+          <li className="card">
+            <div>
+              <h3 className="card-title">ECOMMERCERY</h3>
+              <img src="ecom.png" alt="ecom" />
+
+              <div className="card-content">
+                <p>
+                  Revolutionize online shopping with our cutting-edge Next.js
+                  e-commerce project. Powered by Tailwind, MongoDB, Firebase,
+                  and Stripe, it delivers a seamless, secure, and visually
+                  stunning shopping experience.
+                </p>
+              </div>
+            </div>
+            <div className="card-link-wrapper">
+              <a
+                href="https://github.com/1js2002/Ecommercery"
+                className="card-link"
+              >
+                Read More
+              </a>
+            </div>
+          </li>
           <li className="card">
             <div>
               <h3 className="card-title">Portfolio Website</h3>
@@ -65,14 +89,12 @@ function Projects({}: Props) {
             <img src="tesla.png" alt="tesla" />
             <div className="card-content">
               <p>
-              A cool website made with React.js that looks and feels like using a Tesla car.{" "}
+                A cool website made with React.js that looks and feels like
+                using a Tesla car.{" "}
               </p>
             </div>
             <div className="card-link-wrapper">
-              <a
-                href="https://tesla-rosy.vercel.app/"
-                className="card-link "
-              >
+              <a href="https://tesla-rosy.vercel.app/" className="card-link ">
                 View demo
               </a>
             </div>
@@ -140,7 +162,6 @@ function Projects({}: Props) {
             </div>
           </li>
 
-          
           <li className="card">
             <div>
               <h3 className="card-title">QUIZEO</h3>
