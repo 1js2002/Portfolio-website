@@ -15,10 +15,6 @@ export default function Header({}: Props) {
             fgColor='gray'
             bgColor='transparent'
             />
-            <SocialIcon url="https://www.twitter.com/1js2002" 
-            fgColor='gray'
-            bgColor='transparent'
-            />
             <SocialIcon url="https://www.linkedin.com/in/dinesh-goud-b-610283251/" 
             fgColor='gray'
             bgColor='transparent'

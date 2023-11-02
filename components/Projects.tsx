@@ -9,7 +9,9 @@ import keep from "../public/keep.png";
 import home from "../public/home.png";
 import tesla from "../public/tesla.png";
 import ecom from "../public/ecom.png";
+import Talk from "../public/Talk.png";
 type Props = {};
+
 
 function Projects({}: Props) {
   const projects = [1, 2, 3, 4, 5];
@@ -27,6 +29,26 @@ function Projects({}: Props) {
       </h3>
       <div className="container">
         <ul className="cards">
+        <li className="card">
+            <div>
+              <h3 className="card-title">Talk-A-Tive</h3>
+              <img src="Talk.png" alt="Talk " />
+
+              <div className="card-content">
+                <p>
+                real-time communication with my cutting-edge chat app  built on the powerful MERN stack, leveraging Socket.io for seamless instant messaging.
+                </p>
+              </div>
+            </div>
+            <div className="card-link-wrapper">
+              <a
+                href="https://talkative-ikm1.onrender.com/"
+                className="card-link"
+              >
+                Live Demo
+              </a>
+            </div>
+          </li>
           <li className="card">
             <div>
               <h3 className="card-title">ECOMMERCERY</h3>
