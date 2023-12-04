@@ -11,6 +11,7 @@ import tesla from "../public/tesla.png";
 import ecom from "../public/ecom.png";
 import prompt from "../public/prompt.png";
 import talk from "../public/Talk.png";
+import tive from "../public/tive.png";
 type Props = {};
 
 function Projects({}: Props) {
@@ -53,7 +54,7 @@ function Projects({}: Props) {
           <li className="card">
             <div>
               <h3 className="card-title">Talk-A-Tive</h3>
-              <img src="talk.png" alt="talk " />
+              <img src="tive.png" alt="talk " />
 
               <div className="card-content">
                 <p>
