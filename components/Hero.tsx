@@ -3,6 +3,7 @@ import { Cursor, Typewriter, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
 import Image from "next/image";
 import PFP1 from "../public/PFP1.jpg";
+import bullet from "../public/bullet.jpg";
 import Link from "next/link";
 
 type Props = {};
@@ -22,10 +23,10 @@ export default function Hero({}: Props) {
   return (
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
-      
+
       <Image
-        className="relative rounded-full h-40 w-40 mx-auto object-cover "
-        src={PFP1}
+        className="relative mx-auto  object-cover  w-72 h-52 object-right-bottom  rounded-full  "
+        src={bullet}
         alt="user profile picture"
       />
 
@@ -40,8 +41,8 @@ export default function Hero({}: Props) {
         </h1>
 
         <div className="pt-5 ">
-          <Link href='#about'>
-            <button className='heroButton'>About</button>
+          <Link href="#about">
+            <button className="heroButton">About</button>
           </Link>
           <Link href="#experience">
             <button className="heroButton">Experience</button>

@@ -5,6 +5,9 @@
 /.pnp
 .pnp.js
 
+public/bullet.jpg
+public/PFP1.jpg
+
 # testing
 /coverage
 
